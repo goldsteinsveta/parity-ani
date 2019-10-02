@@ -65,7 +65,6 @@ function loading() {
 		'destributing roles',
 		'importing module crate',
 		'updating runtime'
-
 	]
 	var i = 0
 
@@ -76,7 +75,7 @@ function loading() {
 		h1.fadeIn(300)
 
 		i++
-		if (i > loadingPhrases + 1) {
+		if (i > loadingPhrases.length + 1) {
 			i = 0
 		}	
 	}
