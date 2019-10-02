@@ -75,7 +75,7 @@ function loading() {
 		h1.fadeIn(300)
 
 		i++
-		if (i > loadingPhrases.length + 1) {
+		if (i > loadingPhrases.length) {
 			i = 0
 		}	
 	}
