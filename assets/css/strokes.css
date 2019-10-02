@@ -1,0 +1,248 @@
+.box-svg path {
+    transition: all 0.3s;
+}
+.box-svg[state="1"] path:nth-child(1) {
+    stroke-dasharray: 60vw 100vw;
+    stroke-dashoffset: -31vw;
+}
+.box-svg[state="1"] path:nth-child(2) {
+    stroke-dasharray: 39vw 120vw;
+    stroke-dashoffset: 0vw;
+}
+.box-svg[state="1"] path:nth-child(3) {}
+.box-svg[state="1"] path:nth-child(4) {
+    stroke-dasharray: 60vw 100vw;
+    stroke-dashoffset: 0vw;
+}
+.box-svg[state="1"] path:nth-child(5) {
+    stroke-dasharray: 6vw 100vw;
+    stroke-dashoffset: -65vw;
+}
+.box-svg[state="1"] path:nth-child(6) {
+    stroke-dasharray: 60vw 100vw;
+    stroke-dashoffset: -65vw;
+}
+.box-svg[state="1"] path:nth-child(7) {
+    stroke-dasharray: 70vw 100vw;
+    stroke-dashoffset: -37vw;
+}
+.box-svg[state="1"] path:nth-child(8) {
+    stroke-dasharray: 60vw 100vw;
+    stroke-dashoffset: -100;
+}
+.box-svg[state="1"] path:nth-child(9) {
+    stroke-dasharray: 25vw 100vw;
+    stroke-dashoffset: -30vw;
+}
+.box-svg[state="1"] path:nth-child(10) {
+    stroke-dasharray: 41vw 100vw;
+    stroke-dashoffset: -73vw;
+}
+.box-svg[state="1"] path:nth-child(11) {
+    stroke-dasharray: 60vw 100vw;
+    stroke-dashoffset: 0;
+}
+.box-svg[state="1"] path:nth-child(12) {
+    stroke-dasharray: 100vw 100vw;
+    stroke-dashoffset: -100vw;
+}
+.box-svg[state="1"] path:nth-child(13) {
+    stroke-dasharray: 90vw 100vw;
+    stroke-dashoffset: -60vw;
+}
+.box-svg[state="1"] path:nth-child(14) {
+    stroke-dasharray: 90vw 100vw;
+    stroke-dashoffset: -75vw;
+}
+.box-svg[state="1"] path:nth-child(15) {
+    stroke-dasharray: 90vw 100vw;
+    stroke-dashoffset: -67vw;
+}
+.box-svg[state="1"] path:nth-child(16) {
+    stroke-dasharray: 71vw 100vw;
+    stroke-dashoffset: 0;
+}
+.box-svg[state="1"] path:nth-child(17) {
+    stroke-dasharray: 30vw 0vw;
+    stroke-dashoffset: 0;
+}
+.box-svg[state="1"] path:nth-child(18) {
+    stroke-dasharray: 30vw 0vw;
+    stroke-dashoffset: 0;
+}
+
+
+
+.box-svg[state="2"] path:nth-child(1),
+body.loading path:nth-child(1) {
+    stroke-dasharray: 40vw 100vw;
+    stroke-dashoffset: 0;
+}
+.box-svg[state="2"] path:nth-child(2),
+body.loading path:nth-child(2) {
+    stroke-dasharray: 40vw 120vw;
+    stroke-dashoffset: -70vw;
+}
+.box-svg[state="2"] path:nth-child(3),
+body.loading path:nth-child(3) {}
+.box-svg[state="2"] path:nth-child(4),
+body.loading path:nth-child(4) {
+    stroke-dasharray: 60vw 0;
+    stroke-dashoffset: 0vw;
+}
+.box-svg[state="2"] path:nth-child(5),
+body.loading path:nth-child(5) {
+    stroke-dasharray: 6vw 100vw;
+    stroke-dashoffset: -85vw;
+}
+.box-svg[state="2"] path:nth-child(6),
+body.loading path:nth-child(6) {
+    stroke-dasharray: 40vw 100vw;
+    stroke-dashoffset: -35vw;
+}
+.box-svg[state="2"] path:nth-child(7),
+body.loading path:nth-child(7) {
+    stroke-dasharray: 60vw 100vw;
+    stroke-dashoffset: -37vw;
+}
+.box-svg[state="2"] path:nth-child(8),
+body.loading path:nth-child(8) {
+    stroke-dasharray: 40vw 100vw;
+    stroke-dashoffset: 0;
+}
+.box-svg[state="2"] path:nth-child(9),
+body.loading path:nth-child(9) {
+    stroke-dasharray: 40vw 100vw;
+    stroke-dashoffset: 0;
+}
+.box-svg[state="2"] path:nth-child(10),
+body.loading path:nth-child(10) {
+    stroke-dasharray: 100vw 100vw;
+    stroke-dashoffset: -60vw;
+}
+.box-svg[state="2"] path:nth-child(11),
+body.loading path:nth-child(11) {
+    stroke-dasharray: 40vw 100vw;
+    stroke-dashoffset: 0;
+}
+.box-svg[state="2"] path:nth-child(12),
+body.loading path:nth-child(12) {
+    stroke-dasharray: 100vw 100vw;
+    stroke-dashoffset: -100vw;
+}
+.box-svg[state="2"] path:nth-child(13),
+body.loading path:nth-child(13) {
+    stroke-dasharray: 100vw 100vw;
+    stroke-dashoffset: -70vw;
+}
+.box-svg[state="2"] path:nth-child(14),
+body.loading path:nth-child(14) {
+    stroke-dasharray: 10vw 100vw;
+    stroke-dashoffset: -57vw;
+}
+.box-svg[state="2"] path:nth-child(15),
+body.loading path:nth-child(15) {
+    stroke-dasharray: 60vw 100vw;
+    stroke-dashoffset: 0;
+}
+.box-svg[state="2"] path:nth-child(16),
+body.loading path:nth-child(16) {
+    stroke-dasharray: 120vw 100vw;
+    stroke-dashoffset: 0;
+}
+.box-svg[state="2"] path:nth-child(17),
+body.loading path:nth-child(17) {
+    stroke-dasharray: 30vw 30vw;
+    stroke-dashoffset: 20vw;
+}
+.box-svg[state="2"] path:nth-child(18),
+body.loading path:nth-child(18) {
+    stroke-dasharray: 30vw 100vw;
+    stroke-dashoffset: 0;
+}
+
+
+body.loading path:nth-child(1) {
+    animation: ani140 10s infinite;
+}
+body.loading path:nth-child(2) {
+    animation: ani160 12s infinite;
+}
+body.loading path:nth-child(3) {}
+body.loading path:nth-child(4) {
+}
+body.loading path:nth-child(5) {
+}
+body.loading path:nth-child(6) {animation: ani140 7s infinite;}
+body.loading path:nth-child(7) {animation: ani160 7s infinite ease-in;}
+body.loading path:nth-child(8) {animation: ani140 13s infinite ease-in-out;}
+body.loading path:nth-child(9) {animation: ani140 9s infinite ease-in-out;}
+body.loading path:nth-child(10) {animation: ani100 10s infinite ease-in-out;}
+body.loading path:nth-child(11) {animation: ani140 20s infinite ease-in-out;}
+body.loading path:nth-child(12) {animation: ani100 17s infinite ease-in-out;}
+body.loading path:nth-child(13) {animation: ani100 6s infinite ease-in-out;}
+body.loading path:nth-child(14) {animation: ani110 7s infinite ease-in-out;}
+body.loading path:nth-child(15) {animation: ani160 20s infinite ease-in-out;}
+body.loading path:nth-child(16) {animation: ani160 8s infinite ease-in-out;}
+body.loading path:nth-child(17) {
+}
+body.loading path:nth-child(18) {
+}
+
+
+@keyframes ani100 {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    20% {
+        stroke-dashoffset: 10vw;
+    }
+    60% {
+        stroke-dasharray: 100vw 400vw;
+        stroke-dashoffset: 200vw;
+    }
+    100% {
+        stroke-dashoffset: 400vw;   
+    }
+}
+@keyframes ani110 {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    20% {
+        stroke-dashoffset: 10vw;
+    }
+    60% {
+        stroke-dasharray: 50vw 100vw;
+    }
+    100% {
+        stroke-dashoffset: 200vw;   
+    }
+}
+@keyframes ani140 {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    20% {
+        stroke-dasharray: 10vw 100vw;
+        stroke-dashoffset: 80vw;
+    }
+    40% {
+        stroke-dashoffset: 200vw;
+    }
+    100% {
+        stroke-dasharray: 40vw 100vw;
+        stroke-dashoffset: 280vw;   
+    }
+}
+@keyframes ani160 {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    20% {
+        stroke-dashoffset: 80vw;
+    }
+    100% {
+        stroke-dashoffset: 160vw;   
+    }
+}
